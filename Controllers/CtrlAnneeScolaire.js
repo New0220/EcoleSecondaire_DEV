@@ -1,4 +1,4 @@
-import AnneeScolaire from '../Models/AnnéeScolaire.js';
+import {AnneeScolaire} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 export const addAnneeScolaire = async (req, res) => {

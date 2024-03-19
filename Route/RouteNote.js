@@ -1,5 +1,6 @@
 import express from 'express';
-import { addNote, getAllNotes, getNoteById, updateNote, deleteNote } from '../Controllers/CtrlNote';
+import { addNote, getAllNotes, getNoteById, updateNote, deleteNote } from '../Controllers/CtrlNote.js';
+
 import validateNote from "../Validation/ValidNotes.js";
 
 const router = express.Router();

@@ -1,4 +1,4 @@
-import Enseignant from '../Models/Enseignant.js';
+import {Enseignant} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 // Ajouter un nouvel enseignant

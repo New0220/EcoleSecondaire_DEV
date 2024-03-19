@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { login } from "../Authentification/Login.js";
-import loginRules from "../validations/validationLogin.js";
+import loginRules from "../validation/validLogin.js";
 
 const authRoute = Router();
 

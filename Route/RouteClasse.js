@@ -1,5 +1,5 @@
 import express from 'express';
-import { addClasse, getAllClasses, getClasseById, updateClasse, deleteClasse } from '../Controllers/CtrlClasse';
+import { addClasse, getAllClasses, getClasseById, updateClasse, deleteClasse } from '../Controllers/CtrlClasse.js';
 import validateClasse from "../Validation/ValidClasse.js";
 
 const router = express.Router();

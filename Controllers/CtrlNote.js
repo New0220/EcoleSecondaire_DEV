@@ -1,4 +1,4 @@
-import Note from '../Models/Note.js';
+import {Note} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 export const addNote = async (req, res) => {

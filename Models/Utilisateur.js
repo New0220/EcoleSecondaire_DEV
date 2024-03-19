@@ -8,7 +8,8 @@ const Utilisateur = database.define('Utilisateur', {
     Prenom: { type: DataTypes.STRING, allowNull: false },
     Email: { type: DataTypes.STRING, allowNull: false, unique: true },
     MotDePasse: { type: DataTypes.STRING, allowNull: false },
-    RoleID: { type: DataTypes.INTEGER, references: { model: 'Roles', key: 'RoleID' }}
+    RoleID: { type: DataTypes.INTEGER, references: { model: 'Roles', key: 'RoleID' }},
+    timestamps: false
 });
 
 export default Utilisateur;

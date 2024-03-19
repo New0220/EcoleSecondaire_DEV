@@ -1,4 +1,4 @@
-import Utilisateur from '../Models/Utilisateurs.js';
+import {Utilisateur} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 //Importer le module de hachage

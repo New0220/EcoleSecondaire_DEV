@@ -1,5 +1,5 @@
 import express from 'express';
-import { addUtilisateur, getAllUtilisateurs, getUtilisateurById, updateUtilisateur, deleteUtilisateur } from '../Controllers/CtrlUtilisateur';
+import { addUtilisateur, getAllUtilisateurs, getUtilisateurById, updateUtilisateur, deleteUtilisateur } from '../Controllers/CtrlUtilisateur.js';
 import validateUtilisateur from "../Validation/ValidUtilisateur.js";
 
 const router = express.Router();

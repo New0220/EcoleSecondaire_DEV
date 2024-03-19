@@ -1,5 +1,5 @@
 import express from 'express';
-import { addEnseignant, getAllEnseignants, getEnseignantById, updateEnseignant, deleteEnseignant } from '../Controllers/CtrlEnseignant';
+import { addEnseignant, getAllEnseignants, getEnseignantById, updateEnseignant, deleteEnseignant } from '../Controllers/CtrlEnseignant.js';
 import validateEnseignant from "../Validation/ValidEnseignant.js"
 
 const router = express.Router();

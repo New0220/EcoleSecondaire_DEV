@@ -1,4 +1,4 @@
-import Cours from '../Models/Cours.js';
+import {Cours} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 // Ajouter un nouveau cours

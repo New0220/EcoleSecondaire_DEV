@@ -1,4 +1,4 @@
-import Role from '../Models/Role.js';
+import {Role} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 // Ajouter un nouveau rôle

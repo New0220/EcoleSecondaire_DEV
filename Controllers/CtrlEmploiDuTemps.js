@@ -1,4 +1,4 @@
-import EmploiDuTemps from '../Models/EmploiDuTemps.js';
+import { EmploiDuTemps } from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 export const addEmploiDuTemps = async (req, res) => {

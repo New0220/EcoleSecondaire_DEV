@@ -21,7 +21,6 @@ app.use(compression());
 const PORT = 5000;
 
 // Importation des routeurs
-import database from './Config/Connexion.js'
 import RouteAnneScolaire from './Route/RouteAnneScolaire.js'
 import RouteClasse from './Route/RouteClasse.js'
 import RouteCours from './Route/RouteClasse.js'

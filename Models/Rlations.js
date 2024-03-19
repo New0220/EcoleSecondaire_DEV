@@ -1,13 +1,13 @@
 // Importer tous les modèles
 import Role from "./Role.js";
 import Utilisateur from "./Utilisateur.js";
-import AnneeScolaire from "./AnneeScolaire.js";
-import Matiere from "./Matiere.js";
+import AnneeScolaire from "./AnnéeScolaire.js";
+import Matiere from "./Matière.js";
 import SalleDeClasse from "./SalleDeClasse.js";
 import Enseignant from "./Enseignant.js";
 import Classe from "./Classe.js";
 import Cours from "./Cours.js";
-import Eleve from "./Eleve.js";
+import Eleve from "./Élève.js";
 import Inscription from "./Inscription.js";
 import Note from "./Note.js";
 import EmploiDuTemps from "./EmploiDuTemps.js";

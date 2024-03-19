@@ -1,4 +1,4 @@
-import Matiere from '../Models/Matière.js';
+import {Matiere} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 // Ajouter une nouvelle matière

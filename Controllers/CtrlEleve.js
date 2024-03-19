@@ -1,5 +1,5 @@
 // Importer le modèle Sequelize correspondant
-import { Eleve } from '../Models/Élève.js';
+import { Eleve } from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 // Ajouter un élève

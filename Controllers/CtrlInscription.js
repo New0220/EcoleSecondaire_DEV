@@ -1,4 +1,4 @@
-import Inscription from '../Models/Inscription.js';
+import {Inscription} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 export const addInscription = async (req, res) => {

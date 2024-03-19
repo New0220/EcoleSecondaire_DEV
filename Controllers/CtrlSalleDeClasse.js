@@ -1,4 +1,4 @@
-import SalleDeClasse from '../Models/SalleDeClasse.js';
+import {SalleDeClasse} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 export const addSalleDeClasse = async (req, res) => {

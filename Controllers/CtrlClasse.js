@@ -1,4 +1,4 @@
-import Classe from '../Models/Classe.js';
+import {Classe} from '../Models/Rlations.js';
 import { validationResult } from 'express-validator';
 
 // Ajouter une nouvelle classe
