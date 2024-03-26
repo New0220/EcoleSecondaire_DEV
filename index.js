@@ -39,7 +39,7 @@ import authRoute from './Route/RouteLogin.js';
 import database from './Config/Connexion.js';
 
 // Synchronisation de la base de données
-database.sync().then(() => {
+database.sync(/*{force:true}*/).then(() => {
     console.log('Base de données synchronisée');
 });
 
